@@ -59,7 +59,7 @@ variable "min_tls_version" {
 variable "allow_nested_items_to_be_public" {
   description = "value"
   type        = bool
-  default     = true
+  default     = false
 
 }
 variable "shared_access_key_enabled" {
@@ -95,7 +95,7 @@ variable "table_encryption_key_type" {
 variable "infrastructure_encryption_enabled" {
   description = "value"
   type        = bool
-  default     = false
+  default     = true
 
 }
 # variable "edge_zone" {
